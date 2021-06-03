@@ -1,41 +1,83 @@
 <!DOCTYPE html>
- 
+
 <html>
-  <head>
-    <title>MACHINE LEARNING</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta language="english">
-    <meta charset="UTF-8">
-    <meta name="author" content="Alexandria Meyer">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">  
-    <link rel="shortcut icon" href="images/favicon.ico?" sizes="16x16" type="image/x-icon">
-  </head>
-  <body>
-    <header>
-      <h1 class="title" style="font-size:3.5vw;"><a href="index.html">COMP501 Computing Technology in Society:<br> SUPERVISED MACHINE LEARNING</a></h1>
-    </header>
-    <div id=background>
-      <nav>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="index.html">Home:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="topic.html">Topic:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="opportunities.html">Opportunities:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="risks.html">Risks:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="choices.html">Choices:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="ethics.html">Ethical Reflections:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="references.html">References:</a></h2>
-        <h2 class="nav" style="font-size:1.25vw;"><a href="process_support.html">Process Support:</a></h2>
-      </nav>
-      <div id="content">
-        <h2 style="font-size:2.15vw;" text-align="left">Choices Related to Machine Learning:</h2>
-        <div class="box">
-          <h3 style="font-size:1.25vw;"><p>Given the current implementations of supervised machine learning (SML) in contemporary society and the spike in technology advancements, the fields in which machine learning can be applied are gradually widening, with machine learning in autonomous driving being a prime example- as there are many car manufacturers that are incorporating some form of an autonomous system into their vehicles. However, signs of SML being incorporated are evident in other aspects of society such as the medical field, with SML being tested for use in psychiatry to diagnose patients (Cearns, et al. 2019). Although the implementation of SML to the medical field is still limited and in its early phases, concepts, where SML is applied to such as MRI, scans look feasible. A possible application of SML to MRI scanning is to detect brain lesions and tumors (Akkus, et al., 2017), which should hypothetically enable doctors to work efficiently and reduce the risk of medical errors. The potential it has in the medical field suggests that SML could be more common in the future given its potential and practicality, which is further reinforced by Zippel and Bohnet-Joschko(2021) in their article “Rise of Clinical Studies in the Field of Machine Learning”, where they found a significant increase of studies between the years 2019 and 2020. Of course, thorough testing is required prior to its implementation in a clinical environment to not only ensure the reliability of the prediction(s) but also make the technology more plausible. Topol (2019) voices his concerns regarding artificial intelligence(AI) in the medical sector in his article named “The convergence of human and artificial intelligence”, stating that the limitations of AI used for clinical use include “biasness, security and lack of transparency”. Due to the exponential increase of “big data” in recent years, many companies have been required to turn towards machine learning due to the rate at which data can be labeled and sorted. However, labeling the data for use in training SML algorithms would cost a fortune and would require many experienced data scientists. In light of this, Berthelot et al. (2019) in their journal named ”MixMatch: A Holistic Approach to Semi-Supervised Learning”, investigates the potential of semi-supervised learning (SSL) through their “MixMatch” algorithm, which claims to “seamlessly reduce entropy while maintaining consistency”. By combining elements of both supervised and unsupervised machine learning, SSL enables companies to get results comparable to that of a supervised machine learning algorithm without the need to label large sets of training data, ultimately reducing costs but increasing reliability and consistency of the data. This could potentially mean that in the future, machine learning would be more accessible to a larger demographic such as those who are in agriculture and be applied to many aspects of society to improve quality of life.
-          </p>
-      </div><!--content-->
-    </div><!--background-->
+
+<head>
+  <title>MACHINE LEARNING</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta language="english">
+  <meta charset="UTF-8">
+  <meta name="author" content="Alexandria Meyer">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico?" sizes="16x16" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h1 class="title" style="font-size:3.5vw;"><a href="index.html">COMP501 Computing Technology in Society:<br>
+        SUPERVISED MACHINE LEARNING</a></h1>
+  </header>
+  <div id=background>
+    <nav>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="index.html">Home:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="topic.html">Topic:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="opportunities.html">Opportunities:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="risks.html">Risks:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="choices.html">Choices:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="ethics.html">Ethical Reflections:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="references.html">References:</a></h2>
+      <h2 class="nav" style="font-size:1.25vw;"><a href="process_support.html">Process Support:</a></h2>
+    </nav>
+    <div id="content">
+      <h2 style="font-size:2.15vw;" text-align="left">Choices Related to Machine Learning:</h2>
+      <div class="box">
+        <h3 style="font-size:1.25vw;">
+          <p>Given the current implementations of supervised machine learning (SML) in contemporary society and the
+            spike in technology advancements, the fields in which machine learning can be applied are gradually
+            widening, with machine learning in autonomous driving being a prime example- as there are many car
+            manufacturers that are incorporating some form of an autonomous system into their vehicles.</p>
+
+            <img src="/images/image3.jpeg" title="Image from frontersin: Applications of Deep Learning to Neuro-Imaging Techniques: https://www.frontiersin.org/articles/10.3389/fneur.2019.00869/full" style="float:left">
+
+          <p>However, signs of SML being incorporated are evident in other aspects of society such as the medical field,
+            with SML being tested for use in psychiatry to diagnose patients (Cearns, et al. 2019). Although the
+            implementation of SML to the medical field is still limited and in its early phases, concepts, where SML is
+            applied to such as MRI, scans look feasible.A possible application of SML to MRI scanning is to detect
+            brain lesions and tumors (Akkus, et al., 2017), which should hypothetically enable doctors to work
+            efficiently and reduce the risk of medical errors. The potential it has in the medical field suggests that
+            SML could be more common in the future given its potential and practicality, which is further reinforced by
+            Zippel and Bohnet-Joschko(2021) in their article “Rise of Clinical Studies in the Field of Machine
+            Learning”, where they found a significant increase of studies between the years 2019 and 2020.</p>
+
+          <p>Of course,
+            thorough testing is required prior to its implementation in a clinical environment to not only ensure the
+            reliability of the prediction(s) but also make the technology more plausible. Topol (2019) voices his
+            concerns regarding artificial intelligence(AI) in the medical sector in his article named “The convergence
+            of human and artificial intelligence”, stating that the limitations of AI used for clinical use include
+            “biasness, security and lack of transparency”. Due to the exponential increase of “big data” in recent
+            years, many companies have been required to turn towards machine learning due to the rate at which data can
+            be labeled and sorted. However, labeling the data for use in training SML algorithms would cost a fortune
+            and would require many experienced data scientists. In light of this, Berthelot et al. (2019) in their
+            journal named ”MixMatch: A Holistic Approach to Semi-Supervised Learning”, investigates the potential of
+            semi-supervised learning (SSL) through their “MixMatch” algorithm, which claims to “seamlessly reduce
+            entropy while maintaining consistency”.</p>
+            
+            <p>By combining elements of both supervised and unsupervised machine
+            learning, SSL enables companies to get results comparable to that of a supervised machine learning algorithm
+            without the need to label large sets of training data, ultimately reducing costs but increasing reliability
+            and consistency of the data. This could potentially mean that in the future, machine learning would be more
+            accessible to a larger demographic such as those who are in agriculture and be applied to many aspects of
+            society to improve quality of life.</p>
+      </div>
+      <!--content-->
+    </div>
+    <!--background-->
     <div id="footer">
-        <h3 style="font-size:0.9vw;" class="ftext">© Group 1106</h3>
-    </div><!--footer-->
-   </body>
+      <h3 style="font-size:0.9vw;" class="ftext">© Group 1106</h3>
+    </div>
+    <!--footer-->
+</body>
+
 </html>
